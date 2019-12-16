@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        #指定nacos server的地址
+        server-addr: 192.168.30.131:8848
+  application:
+    name: user
+
+server:
+  port: 8080
